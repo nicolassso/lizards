@@ -1,0 +1,42 @@
+.sign-up{
+    width: 100%;
+    display: grid;
+    flex-direction: column;    
+    margin: auto;
+    padding: auto;
+    
+    .text-intro{
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        color: white;
+    }  
+
+    .buttons{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sign-up-form{
+        width: 350px;
+        padding: 15px 30px;
+        margin: 80px auto;
+        background-color: rgb(42, 41, 44, 0.7);
+        border-radius: 8px;
+
+    }
+
+    .backgroundVideo{
+        position: fixed;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .sign-up{
+        .sign-up-form{
+            margin: 20px auto;
+        }
+    }
+
+}

@@ -1,0 +1,20 @@
+.video{
+    width: 100%;
+    display: grid;
+    flex-direction: column;    
+    margin: auto;
+    padding: auto;
+}
+
+.video-text{
+    font-family: 'Oswald', sans-serif;
+    margin: 10vh 6vw;
+    text-align: left;
+    color: white;
+    z-index: 1;
+}  
+
+.backgroundVideo{
+    position: absolute;
+    z-index: 0;
+}

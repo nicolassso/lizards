@@ -1,0 +1,22 @@
+.homepage{
+    background-image: url('../../../images/img-3.jpg');
+
+    .backgroundVideo{
+        display: grid;        
+        width: 100vw;
+        border-radius: 8px;
+        margin-top: 5vh;
+    }
+
+    .content{
+        margin-top: 50vh;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .homepage{
+        .content{
+        margin-top: 13vh;
+    }
+}
+}

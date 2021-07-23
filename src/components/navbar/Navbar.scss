@@ -1,0 +1,233 @@
+.navbar {
+    background:#231f20;
+    height: 150px;
+    font-size: 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+    .navbar-container{
+      .section-left{
+        .nav-menu{
+          .nav-item{
+            .nav-links{
+              justify-content: flex-end;
+            }
+          }          
+        }
+      }
+    }
+  }
+  h1.logo{
+    margin: auto;
+  }
+  
+  .navbar-container {
+    display: grid;
+    grid-template-columns: [left]33vw [center]33vw [right]33vw;
+
+
+    .section-left{
+      grid-column: 1 / 2 ;
+    }
+
+    .section-center{
+      grid-column: 2 / 3 ;
+    }
+
+    .section-right{
+      grid-column: 3 / 4 ;
+
+    }
+  }
+
+  .logo{
+    font-family: 'Tourney', cursive;
+    color: white;
+  }
+  .logo:hover{
+    color: rgb(218, 144, 144);
+  }
+
+  .logo-container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    margin: auto;
+    text-decoration: none;
+    align-items: center;
+  }
+  
+  .nav-menu{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 30px;
+    list-style: none;
+    text-align: center;
+    margin-left: 2rem;
+  }
+  
+  .nav-item {
+    height: 150px;
+    color: white;
+  }
+  
+  .nav-links {
+    color: var(--primary-color);
+    display: flex;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    height: 100%;
+    align-items: flex-end;
+
+  }
+  
+  .nav-links:hover {
+    color: rgb(218, 144, 144);
+    border-bottom: 4px solid white;
+    transition: all 0.2s ease-out;
+  }
+  
+  .fa-bars {
+    color: white;
+  }
+  
+  .nav-links-mobile {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 960px) {
+
+    .navbar-container {
+      display: grid;
+      grid-template-columns: [left]0vw [center]100vw [right]0vw;
+      height: 100%;
+  
+      .section-left{
+        grid-column: none ;
+      }
+  
+      .section-center{
+        display: grid;
+        grid-column: 2 / 3 ;
+        height: 100%;
+        align-self: center;
+        margin-bottom: 22px;
+
+      }
+  
+      .section-right{
+        grid-column: none ;
+  
+      }
+    }
+    .logo-container{
+      display: grid;
+      height: 100%;
+
+      h1.logo{
+        align-self: center;
+      }
+    }
+
+    .navbar.active{
+      height: 100px;
+    }
+
+    .NavbarItems {
+      position: relative;
+    }
+
+ 
+  
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 80vh;
+      position: absolute;
+      top: 100px;
+      left: -100%;
+      opacity: 0.5;
+      transition: all 0.5s ease;
+      margin-left: 0;
+    }
+  
+    .nav-menu.active {
+      background: #231f20;
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+    .nav-menu.active-2 {
+      background: #231f20;
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+      top: 370px;
+    }
+
+    .nav-item.active{
+      height: 100px;
+    }
+
+    .nav-links {
+      text-align: center;
+      padding: 2rem;
+      width: 100%;
+      display: table;
+    }
+  
+    .nav-links:hover {
+      background-color: var(--secondary-color);
+      color: #242424;
+      border-radius: 0;
+    }
+  
+  
+    .menu-icon {
+      display: block;
+      position: absolute;
+      top: 15%;
+      right: 5%;
+      transform: translate(-100%, 60%);
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: rgb(218, 144, 144);
+    }
+  
+
+    /* Botón cerrar menú móvil */
+    .fa-times {
+      color: white;
+      font-size: 1.5rem;
+      margin-top: 5%;
+    }
+  
+    .nav-links-mobile {
+      display: block;
+      text-align: center;
+      margin: 2rem auto;
+      border-radius: 4px;
+      width: 80%;
+      text-decoration: none;
+      font-size: 1.5rem;
+      background-color: transparent;
+      color: var(--primary-color);
+      padding: 14px 20px;
+      border: 1px solid var(--primary-color);
+      transition: all 0.3s ease-out;
+    }
+  
+    .nav-links-mobile:hover {
+      background: var(--secondary-color);
+      color: #231f20;
+      transition: 250ms;
+    }
+  }

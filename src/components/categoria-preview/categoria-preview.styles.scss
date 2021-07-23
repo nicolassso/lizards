@@ -1,0 +1,40 @@
+
+
+.collection-preview{
+    display: grid;
+    grid-template-rows: 20% 80%;
+    gap: 10px;
+    align-items: center;
+    min-height: 350px;
+    margin: 20px;
+    background-color: rgba(24, 23, 23, 0.7);
+    border-radius: 8px;
+
+
+    h1{
+        text-align: center;
+    }
+
+    .preview{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 100%;
+
+        .collection-item{
+            margin: 5px;
+            height: 93%;
+
+            .collection-footer{
+                display: grid;
+                grid-template-rows: 10% 90%;
+                height: 100%;
+                text-align: center;
+
+                .text{
+                    align-self: center;
+                }
+            }
+        }
+    }
+
+}

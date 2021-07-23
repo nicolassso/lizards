@@ -13,7 +13,7 @@ class App extends React.Component {
   render(){
     return(
       <div>
-        <BrowserRouter>
+        <BrowserRouter basename='/lizards'>
             <Route exact path='/' component={SignUpPage}/>
             <Route exact path='/home' component={HomePage}/>
             <Route exact path='/content' component={ContentPage}/>

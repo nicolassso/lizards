@@ -3,22 +3,19 @@ import Navbar from '../../navbar/Navbar'
 import Footer from '../../footer/footer.component';
 import Content from '../../content/content.component';
 import './homepage.styles.scss';
-import backgroundVideo from '../../../videos/video-1.mp4'
-import Video from '../../video/video.component';
+// import Video from '../../video/video.component';
+import Directory from '../../directory/directory.component';
 
 
 
 
 const HomePage = () => (
         <div className='homepage'>
+            {/* <Video /> */}
             <Navbar />
-
-            {/* <video className='backgroundVideo' autoPlay loop muted src={backgroundVideo}/> */}
-            <Video />
-
-            <Content />
-
+            <Directory />
             <Footer />
+
         </div>
 )
 

@@ -1,20 +1,21 @@
 import React from 'react'
+// import { Button } from './Button'
 import { Link } from 'react-router-dom'
-import './footer.styles.scss'
+import './Footer.scss'
 
 function Footer() {
     return (
         <div className="footer-container">
-            <div className="footer-links">
-                <div className="footer-link-wrapper">
-                    <div className="footer-link-items">
-                        <Link to="/sign-up">Nicolás Leal</Link>
-                    </div>
-                </div>
-            </div>
             <section className="social-media">
                 <div className="social-media-wrap">
-                    <small className="website-rights">Lizards © 2021</small>
+                    <small className="website-rights">
+                        <a 
+                        exact href='www.linkedin.com/in/nicolas-leal-silveyra'
+                        target='_blank'
+                        >
+                        Nicolás Leal © 2021
+                        </a>
+                    </small>
                     <div className="social-icons">
                         <Link className="social-icon-link facebook"
                         to="/"

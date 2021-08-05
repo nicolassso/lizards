@@ -2,7 +2,6 @@
     background:#231f20;
     height: 150px;
     font-size: 1.5rem;
-    position: sticky;
     top: 0;
     z-index: 999;
 
@@ -186,15 +185,16 @@
   
     .nav-links:hover {
       background-color: var(--secondary-color);
-      color: #242424;
+      color: rgb(218, 144, 144);
       border-radius: 0;
+      border-bottom: none;
     }
   
   
     .menu-icon {
       display: block;
       position: absolute;
-      top: 15%;
+      top: 14px;
       right: 5%;
       transform: translate(-100%, 60%);
       font-size: 1.5rem;

@@ -8,6 +8,7 @@ const Categoria = ({title, items})  => (
         <div className='preview'>
             {
                 items
+                .filter((item, idx) => idx < 3)
                 .map(({id, ...otherItemProps}) => (
                     <CategoriaItem key={id} {...otherItemProps} />
                 ))

@@ -40,7 +40,7 @@ function Navbar() {
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item active'>
                 <Link 
-                  to='/content' 
+                  to='/eventos' 
                   className='nav-links' 
                   onClick={closeMobileMenu}>
                   Eventos
@@ -48,7 +48,7 @@ function Navbar() {
               </li>
               <li className='nav-item active'>
                 <Link
-                  to='/home'
+                  to='/historias'
                   href={scrollView}
                   className='nav-links'
                   onClick={closeMobileMenu}>
@@ -60,7 +60,7 @@ function Navbar() {
           </div>
           <div className="section-center">
             {/* <img className='navbar-logo active' alt='logo' src={Logo} height='200px' /> */}
-            <Link className='logo-container' to='/'>
+            <Link className='logo-container' to='/home'>
             <h1 className='logo'>LIZARDS</h1>
         </Link>
           </div>
@@ -68,7 +68,7 @@ function Navbar() {
             <ul className={click ? 'nav-menu active-2' : 'nav-menu'}>
               <li className='nav-item active'>
                 <Link
-                  to='/home'
+                  to='/videos'
                   href={scrollView}
                   className='nav-links'
                   onClick={closeMobileMenu}>
@@ -77,7 +77,7 @@ function Navbar() {
               </li>
               <li className='nav-item active'>
                 <Link
-                  to='/home'
+                  to='/contacto'
                   href={scrollView}
                   className='nav-links'
                   onClick={closeMobileMenu}>

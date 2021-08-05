@@ -1,8 +1,7 @@
 import React from 'react'
-import CATEGORIAS_DATA from '../homepage/categorias-data';
+import CATEGORIAS_DATA from '../contentpage/categorias-data.jsx';
 import Categoria from '../../categoria-preview/categoria-preview.component';
 import Navbar from '../../navbar/Navbar';
-import './contentpage.styles.scss';
 
 class ContentPage extends React.Component {
     constructor(props){ 
@@ -23,7 +22,9 @@ class ContentPage extends React.Component {
                 <div className='content-page'>
 
                     {
-                        collections.map(({id, ...otherCollectionProps}) => (
+                        collections
+                        .filter((item, idx) => idx < 3)
+                        .map(({id, ...otherCollectionProps}) => (
                             <Categoria key={id} {...otherCollectionProps}/>
                             
                         ))

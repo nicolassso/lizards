@@ -11,7 +11,7 @@ const CategoriaItem = ({id, name, text, imageUrl}) => (
         />
         <div className="collection-footer">
             <span className="name">{name}</span>
-            <span className="text">{text}</span>   
+            {/* <span className="text">{text}</span>    */}
         </div>
     </div>
 )

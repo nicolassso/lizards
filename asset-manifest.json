@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/lizards/static/css/main.d131059f.chunk.css",
-    "main.js": "/lizards/static/js/main.0c966773.chunk.js",
-    "main.js.map": "/lizards/static/js/main.0c966773.chunk.js.map",
+    "main.css": "/lizards/static/css/main.d6f574b3.chunk.css",
+    "main.js": "/lizards/static/js/main.ac03f4b2.chunk.js",
+    "main.js.map": "/lizards/static/js/main.ac03f4b2.chunk.js.map",
     "runtime-main.js": "/lizards/static/js/runtime-main.005b9ad0.js",
     "runtime-main.js.map": "/lizards/static/js/runtime-main.005b9ad0.js.map",
-    "static/js/2.99fc6909.chunk.js": "/lizards/static/js/2.99fc6909.chunk.js",
-    "static/js/2.99fc6909.chunk.js.map": "/lizards/static/js/2.99fc6909.chunk.js.map",
+    "static/js/2.d3d83c8e.chunk.js": "/lizards/static/js/2.d3d83c8e.chunk.js",
+    "static/js/2.d3d83c8e.chunk.js.map": "/lizards/static/js/2.d3d83c8e.chunk.js.map",
     "index.html": "/lizards/index.html",
-    "static/css/main.d131059f.chunk.css.map": "/lizards/static/css/main.d131059f.chunk.css.map",
-    "static/js/2.99fc6909.chunk.js.LICENSE.txt": "/lizards/static/js/2.99fc6909.chunk.js.LICENSE.txt",
+    "static/css/main.d6f574b3.chunk.css.map": "/lizards/static/css/main.d6f574b3.chunk.css.map",
+    "static/js/2.d3d83c8e.chunk.js.LICENSE.txt": "/lizards/static/js/2.d3d83c8e.chunk.js.LICENSE.txt",
+    "static/media/DSC05899.444ec657.jpg": "/lizards/static/media/DSC05899.444ec657.jpg",
+    "static/media/DSC05965.b0f390c9.jpg": "/lizards/static/media/DSC05965.b0f390c9.jpg",
+    "static/media/DSC06439.9b5d00e5.jpg": "/lizards/static/media/DSC06439.9b5d00e5.jpg",
+    "static/media/DSC06595.34fbd0d1.jpg": "/lizards/static/media/DSC06595.34fbd0d1.jpg",
+    "static/media/DSC06663.a61d3de9.jpg": "/lizards/static/media/DSC06663.a61d3de9.jpg",
     "static/media/city-lights.e6de5b1f.mp4": "/lizards/static/media/city-lights.e6de5b1f.mp4",
-    "static/media/contentpage.styles.scss": "/lizards/static/media/img-3.6d683c0e.jpg",
-    "static/media/video-1.59e75226.mp4": "/lizards/static/media/video-1.59e75226.mp4"
+    "static/media/contentpage.styles.scss": "/lizards/static/media/img-3.6d683c0e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.005b9ad0.js",
-    "static/js/2.99fc6909.chunk.js",
-    "static/css/main.d131059f.chunk.css",
-    "static/js/main.0c966773.chunk.js"
+    "static/js/2.d3d83c8e.chunk.js",
+    "static/css/main.d6f574b3.chunk.css",
+    "static/js/main.ac03f4b2.chunk.js"
   ]
 }

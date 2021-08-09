@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, Router } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Navbar.scss';
 // import Logo from '../../images/logo-guitar.PNG'
 

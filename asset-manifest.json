@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/lizards/static/css/main.d89f2ea8.chunk.css",
-    "main.js": "/lizards/static/js/main.88614873.chunk.js",
-    "main.js.map": "/lizards/static/js/main.88614873.chunk.js.map",
+    "main.css": "/lizards/static/css/main.9ed34dc2.chunk.css",
+    "main.js": "/lizards/static/js/main.83f5c8ed.chunk.js",
+    "main.js.map": "/lizards/static/js/main.83f5c8ed.chunk.js.map",
     "runtime-main.js": "/lizards/static/js/runtime-main.005b9ad0.js",
     "runtime-main.js.map": "/lizards/static/js/runtime-main.005b9ad0.js.map",
     "static/js/2.d3d83c8e.chunk.js": "/lizards/static/js/2.d3d83c8e.chunk.js",
     "static/js/2.d3d83c8e.chunk.js.map": "/lizards/static/js/2.d3d83c8e.chunk.js.map",
     "index.html": "/lizards/index.html",
-    "static/css/main.d89f2ea8.chunk.css.map": "/lizards/static/css/main.d89f2ea8.chunk.css.map",
+    "static/css/main.9ed34dc2.chunk.css.map": "/lizards/static/css/main.9ed34dc2.chunk.css.map",
     "static/js/2.d3d83c8e.chunk.js.LICENSE.txt": "/lizards/static/js/2.d3d83c8e.chunk.js.LICENSE.txt",
     "static/media/DSC00111.fe774d1a.jpg": "/lizards/static/media/DSC00111.fe774d1a.jpg",
     "static/media/DSC00115.33c607d7.jpg": "/lizards/static/media/DSC00115.33c607d7.jpg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.005b9ad0.js",
     "static/js/2.d3d83c8e.chunk.js",
-    "static/css/main.d89f2ea8.chunk.css",
-    "static/js/main.88614873.chunk.js"
+    "static/css/main.9ed34dc2.chunk.css",
+    "static/js/main.83f5c8ed.chunk.js"
   ]
 }
